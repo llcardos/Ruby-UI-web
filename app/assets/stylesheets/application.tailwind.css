@@ -152,3 +152,18 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  /* ::-webkit-scrollbar {
+    width: 7px;
+  } */
+
+  ::-webkit-scrollbar-track {
+    background: var(--background);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--ring);
+    border-radius: 6px;
+  }
+}
